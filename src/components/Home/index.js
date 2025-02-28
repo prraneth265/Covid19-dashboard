@@ -421,7 +421,6 @@ class Home extends Component {
                 placeholder="Enter the State"
                 className="search-bar"
                 onChange={this.searchStarted}
-                onAbort={this.removeFilteredList}
               />
             </div>
             {search.length > 0 ? showSearchList : ''}
