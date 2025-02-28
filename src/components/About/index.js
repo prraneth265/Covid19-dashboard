@@ -19,7 +19,7 @@ class About extends Component {
 
   renderLoader = () => (
     <>
-      <div className="loader-container" testid="aboutRouteLoader">
+      <div className="loader-container" data-testid="aboutRouteLoader">
         <Loader type="ThreeDots" color="blue" height="50" width="50" />
       </div>
     </>
