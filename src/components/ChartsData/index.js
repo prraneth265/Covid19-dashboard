@@ -72,7 +72,7 @@ class ChartsData extends Component {
   renderLoadingView = () => (
     <div
       className="products-details-loader-container"
-      testid="timelinesDataLoader"
+      data-testid="timelinesDataLoader"
     >
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
